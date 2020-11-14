@@ -27,7 +27,7 @@ exports.run = async (bot, message, args, args_txt, chat) => {
 
 	let bReason = args.join(" ").slice(22);
 	if(!bReason) {
-		bReason = "Rasão do ban";
+		bReason = "Razão do ban";
 
 	}
 
